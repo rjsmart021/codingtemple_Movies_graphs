@@ -127,12 +127,6 @@ query getShow {
 
 A GraphQL API for The Movie Database.
 
-Documentation coming soon!
-
-Attribution
-
-This product uses the TMDb API but is not endorsed or certified by TMDb
-
 Single-database configuration for Flask.
 This application utilizes GraphQL, and creates tables for movie data, genre data, and creates an relational table for the relationship between the movies and the genres.
 
