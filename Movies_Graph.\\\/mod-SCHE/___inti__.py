@@ -1,3 +1,5 @@
+from app.schema import schema
+from Schema import schema
 import os
 from flask import Flask
 from app.models import db
