@@ -1,6 +1,5 @@
 from flask import jsonify, request
 
-
 from Movies import app
 from Movies.models import Genre
 from Movies import db
