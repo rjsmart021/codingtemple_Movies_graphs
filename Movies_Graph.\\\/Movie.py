@@ -6,7 +6,6 @@ from Movies.models import Movie
 from Movies import db
 from Movie.schemas import MovieSchema
 
-
 Movie_schema = MovieSchema()
 
 
