@@ -8,7 +8,6 @@ GraphQL Movie Database
 
 # Examples
 
-## Search Queries
 
 ### Multi-Search
 
