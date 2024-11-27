@@ -1,4 +1,6 @@
 # schema.py
+from Schema import schema
+from app.schema import schema
 import graphene
 from graphene_sqlalchemy import SQLAlchemyObjectType
 from app.models import Movie as MovieModel, Genre as GenreModel, movie_genres, db
