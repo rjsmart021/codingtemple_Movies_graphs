@@ -7,6 +7,7 @@ class Movie(Base):
     director: Mapped[str] = mapped_column(db.String(255))
     year: Mapped[int] = mapped_column(db.Integer)
 
+
     genres: Mapped[List['Genre']] = db.relationship(secondary=movie_genres, back_populates='movies')
 
     def __init__(self, **kwargs):
